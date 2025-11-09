@@ -1,8 +1,8 @@
 import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
-import Home from './pages/Public/Home';
-import Login from './pages/Public/Login';
-import Signup from './pages/Public/Signup';
+import Home from './pages/public/Home';
+import Login from './pages/public/Login';
+import Signup from './pages/public/Signup';
 import DashboardLayout from './pages/Dashboard/DashboardLayout';
 
 const PrivateRoute = ({ children }) => {
